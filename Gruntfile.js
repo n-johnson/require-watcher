@@ -9,7 +9,6 @@ module.exports = function(grunt) {
       dist: {
         files: [
           {'dist/index.js': 'src/index.js'},
-          {'dist/lib/t.js': 'src/lib/t.js'},
           {'dist/lib/RequireUtils.js': 'src/lib/RequireUtils.js'}]
       }
     },
